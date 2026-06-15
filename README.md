@@ -15,7 +15,6 @@ Desafio da Aula 3 do curso de React.
 - Contador de favoritos no cabeçalho fixo
 - Tratamento de estados de carregamento e erro
 - Não permite favoritar o mesmo personagem duas vezes
-- HTML semântico (`header`, `main`, `aside`, `article`, `nav`, `form`, `ul`)
 
 ## Screenshots
 
