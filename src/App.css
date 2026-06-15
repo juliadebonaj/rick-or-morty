@@ -58,11 +58,11 @@ header h1 {
 
 /* ===== FORM DE BUSCA ===== */
 
-form[role="search"] {
+form {
   padding: 1rem 0;
 }
 
-form[role="search"] label {
+form label {
   display: block;
   font-size: 0.85rem;
   font-weight: 600;
@@ -70,7 +70,7 @@ form[role="search"] label {
   margin-bottom: 0.4rem;
 }
 
-form[role="search"] input[type="search"] {
+form input[type="search"] {
   width: 100%;
   padding: 0.7rem 1rem;
   border-radius: 6px;
@@ -84,11 +84,11 @@ form[role="search"] input[type="search"] {
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-form[role="search"] input[type="search"]::placeholder {
+form input[type="search"]::placeholder {
   color: #8aaac8;
 }
 
-form[role="search"] input[type="search"]:focus {
+form input[type="search"]:focus {
   border-color: #7aaed6;
   box-shadow: 0 0 0 0.2rem rgba(122, 174, 214, 0.25);
 }

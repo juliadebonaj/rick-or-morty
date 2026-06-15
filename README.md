@@ -17,6 +17,20 @@ Desafio da Aula 3 do curso de React.
 - Não permite favoritar o mesmo personagem duas vezes
 - HTML semântico (`header`, `main`, `aside`, `article`, `nav`, `form`, `ul`)
 
+## Screenshots
+
+### Tela inicial
+![Tela inicial](docs/screenshots/inicio.png)
+
+### Busca e filtros
+![Busca e filtros](docs/screenshots/busca-filtros.png)
+
+### Favoritos
+![Favoritos](docs/screenshots/favoritos.png)
+
+### Seleção múltipla
+![Seleção múltipla](docs/screenshots/selecao-multipla.png)
+
 ## Stack
 
 - React
