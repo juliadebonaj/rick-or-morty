@@ -2,7 +2,7 @@
 
 Aplicação React que consome a [Rick and Morty API](https://rickandmortyapi.com/) e permite buscar personagens, filtrar por status/espécie, navegar por páginas e montar uma lista de favoritos.
 
-Desafio da Aula 3 do curso de React (UNISINOS).
+Desafio da Aula 3 do curso de React.
 
 ## Funcionalidades
 
@@ -19,9 +19,10 @@ Desafio da Aula 3 do curso de React (UNISINOS).
 
 ## Stack
 
-- React 19 + TypeScript
+- React
+- TypeScript
 - Vite
-- CSS global
+- CSS
 
 ## Como rodar
 
@@ -49,18 +50,18 @@ Para parar o servidor: `Ctrl + C` no terminal.
 
 ## Estrutura
 
-Organizada **por feature**: cada domínio da aplicação tem sua própria pasta com tudo que precisa (componentes, hooks, context, etc).
+Organizada **por feature**:
 
 ```
 src/
-├── App.tsx                       Componente raiz e composição da página
+├── App.tsx                       Raiz e composição da página
 ├── App.css                       CSS global
 ├── index.css                     Reset e estilos base
 ├── main.tsx                      Ponto de entrada
 ├── favoritos/                    Tudo relacionado à feature de favoritos
 │   ├── FavoritosContext.tsx      Provider + reducer + hook useFavoritos
-│   ├── ListaFavoritos.tsx        Painel lateral (aside) de favoritos
-│   └── BarraSeleção.tsx          Barra flutuante de seleção múltipla
+│   ├── ListaFavoritos.tsx        Painel lateral de favoritos
+│   └── BarraSeleção.tsx          Barra de seleção múltipla
 ├── personagens/                  Tudo relacionado à feature de personagens
 │   ├── useCharacters.ts          Custom hook: fetch + loading + erro + paginação
 │   ├── CardPersonagem.tsx        Card individual (article)
